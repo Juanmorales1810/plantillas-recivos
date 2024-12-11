@@ -4,146 +4,196 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet"
+        />
         <title>Recibo de Sueldo</title>
     </head>
     <body>
         <div class="payslip">
             <div class="header">
-                <span class="left">715944</span
-                ><span
-                    ><div class="gobierno">
-                        GOBIERNO DE SAN JUAN - LIQUIDACION DE HABERES
-                    </div></span
-                ><span class="center">** CUIT DECLARANTE: 30-99901516-2 **</span
-                ><span class="right">1223</span>
+                <div class="headerImage">
+                    <img
+                        src="./assets/Logo San Juan Color.png"
+                        alt="Logo San Juan"
+                    />
+                    <img
+                        src="./assets/Logo CIDI horizontal.png"
+                        alt="Logo CiDi"
+                    />
+                </div>
+                <div class="headerTitle">
+                    <h1>Liquidación de haberes</h1>
+                    <p>CUIT empleador: 30-99901516-2 Gobierno de San juan</p>
+                </div>
+                <div>
+                    <p>Código de validación: <strong>QPFabc</strong></p>
+                </div>
             </div>
+
             <div class="main-content">
-                <div class="column haberes">
-                    <h3>HABERES</h3>
+                <div class="titular">
+                    <div class="titularSection">
+                        <p>52 Sec. De La Gestion Public.</p>
+                        <p>Direc. Pcial. Informática</p>
+                        <p>Padrón: 0123456789</p>
+                        <p>Castillo Nora</p>
+                        <p>D.N.I : Sexo (Muj-Var) 14565656</p>
+                        <p>Fecha de nacimiento: dd/mm/aaaa</p>
+                    </div>
+                    <div class="titularSection">
+                        <p>Cuil: 23145656569</p>
+                        <p>Aporte Personal: 6</p>
+                        <p>Aporte Patronal: 56569</p>
+                    </div>
+                    <div>
+                        <p class="titulaButton">Periodo: dd-mm-aaaa</p>
+                        <p class="titulaButton">Emitido: dd-mm-aaaa</p>
+                        <p class="titulaButton">Neto: 827.461,54</p>
+                    </div>
+                </div>
+                <div class="tableContainer">
+                    <h2>Haberes</h2>
                     <table>
+                        <thead>
+                            <tr>
+                                <th>Concepto</th>
+                                <th>Importe</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
-                                <td>SUELDO BASICO</td>
+                                <td>Sueldo</td>
                                 <td>651.261,00</td>
                             </tr>
                             <tr>
-                                <td>ANTIGUEDAD</td>
+                                <td>Antiguedad</td>
                                 <td>976.891,50</td>
                             </tr>
                             <tr>
-                                <td>TITULO</td>
+                                <td>Título</td>
                                 <td>52.100,88</td>
                             </tr>
                             <tr>
-                                <td>BONIF.MANEJO FONDO</td>
+                                <td>Bonif. Manejo Fondo</td>
                                 <td>62.448,40</td>
                             </tr>
                             <tr>
-                                <td>REFRIGERIO Y EQUIP.</td>
+                                <td>Refrigerio y Equip.</td>
                                 <td>46.836,30</td>
                             </tr>
                             <tr>
-                                <td>INCENT.PRODUCTIVID.</td>
+                                <td>Incent. Productivid.</td>
                                 <td>94.045,65</td>
                             </tr>
                             <tr>
-                                <td>SALARIO FAMILIAR</td>
+                                <td>Salario Familiar</td>
                                 <td>3.000,00</td>
                             </tr>
                         </tbody>
+                        <tfoot>
+                            <td>Total:</td>
+                            <td>1886583,73</td>
+                        </tfoot>
                     </table>
-                    <div class="total">TOTAL DE HABERES: 1886583,73</div>
                 </div>
-                <div class="column descuentos">
-                    <h3>DESCUENTOS</h3>
+                <div class="tableContainer">
+                    <h2>Descuentos</h2>
                     <table>
+                        <thead>
+                            <tr>
+                                <th>Concepto</th>
+                                <th>Importe</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
-                                <td>APORTE JUBIL.SIPA</td>
-                                <td>127.282,41</td>
+                                <td>Aporte jubil. SIPA</td>
+                                <td>651.261,00</td>
                             </tr>
                             <tr>
-                                <td>APORTE CAJA MUTUAL</td>
-                                <td>75.343,35</td>
+                                <td>Prestamo C.A.S</td>
+                                <td>976.891,50</td>
                             </tr>
                             <tr>
-                                <td>PRESTAMO C.A.S.</td>
-                                <td>18.325,61</td>
+                                <td>Coseguro Asist. UPCN</td>
+                                <td>52.100,88</td>
                             </tr>
                             <tr>
-                                <td>COSEGURO ASIST.UPCN</td>
-                                <td>12.630,00</td>
+                                <td>C.Mutual G.S.Ramon</td>
+                                <td>62.448,40</td>
                             </tr>
                             <tr>
-                                <td>C.MUTUAL G.S.RAMON</td>
-                                <td>4.000,00</td>
+                                <td>Cuota Alim.S/asigna</td>
+                                <td>46.836,30</td>
                             </tr>
                             <tr>
-                                <td>CUOTA ALIM.S/ASIGNA</td>
-                                <td>470.382,88</td>
-                            </tr>
-                            <tr>
-                                <td>OSP.CONSULT.FARMAC.</td>
-                                <td>80,00</td>
+                                <td>Osp. Consult. Farmacia</td>
+                                <td>94.045,65</td>
                             </tr>
                         </tbody>
+                        <tfoot>
+                            <td>Total:</td>
+                            <td>1886583,73</td>
+                        </tfoot>
                     </table>
-                    <div class="total">TOTAL DE DESCUENTOS: 708044,25</div>
+                </div>
+                <div class="tableContainer">
+                    <h2>Descuentos</h2>
                     <table>
+                        <thead>
+                            <tr>
+                                <th>Concepto</th>
+                                <th>Importe</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
-                                <td>APORTE OBRA SOCIAL</td>
-                                <td>113.015,02</td>
+                                <td>Aporte Obra Social</td>
+                                <td>651.261,00</td>
                             </tr>
                             <tr>
-                                <td>COLATERAL O.SOCIAL</td>
-                                <td>56.507,51</td>
+                                <td>Colateral O. Social</td>
+                                <td>976.891,50</td>
                             </tr>
                             <tr>
-                                <td>U.P.C.N. -CUOTA-</td>
-                                <td>37.671,67</td>
+                                <td>U.P.C.N cuota</td>
+                                <td>52.100,88</td>
                             </tr>
                             <tr>
-                                <td>COSEGURO MEDIC.UPCN</td>
-                                <td>12.630,00</td>
+                                <td>Coseguro Med. UPCN</td>
+                                <td>62.448,40</td>
                             </tr>
                             <tr>
-                                <td>ASOC.P.LEGISLATIVO</td>
-                                <td>28.253,75</td>
+                                <td>Asoc. P. Legislativo</td>
+                                <td>46.836,30</td>
                             </tr>
                             <tr>
-                                <td>CUOTA ALIM.S/SALAR.</td>
+                                <td>Cuota Alim. S/salar..</td>
+                                <td>94.045,65</td>
+                            </tr>
+                            <tr>
+                                <td>Bono Apel</td>
                                 <td>3.000,00</td>
                             </tr>
-                            <tr>
-                                <td>BONO APEL</td>
-                                <td>99.999,99</td>
-                            </tr>
                         </tbody>
+                        <tfoot>
+                            <td>Total:</td>
+                            <td>1886583,73</td>
+                        </tfoot>
                     </table>
-                    <div class="total">TOTAL DE DESCUENTOS: 351.077,94</div>
                 </div>
-                <div class="column info">
-                    <div class="employee-info">
-                        <p>52 SEC. DE LA GESTION PUBLIC</p>
-                        <p>1 DIREC. PCIAL. INFORMATICA</p>
-                        <p>715944 DNI VARON 18361237</p>
-                        <p>SALOMON, ALBERTO R.</p>
-                        <p>D.N.I: VARON 18361237</p>
-                        <p>FECHA NAC. 23/02/1967 0:00:00</p>
-                        <p>1223</p>
-                        <p>1-MENSUALIZADOS</p>
-                        <p>CUIL 23183612379</p>
-                    </div>
-                    <div class="additional-info">
-                        <p class="codigo">715944-1223</p>
-                        <p>Aporte Personal: <span class="valor">6</span></p>
-                        <p>Aporte Patronal: <span class="valor">8506</span></p>
-                        <p>D.I. <span class="codigo">23183612379</span></p>
-                    </div>
-                    <div class="neto">NETO 827.461,54</div>
-                </div>
+                <img
+                    src="./assets/DPI.png"
+                    alt="Logo DPI"
+                    class="dpiMarcaDeAgua"
+                />
             </div>
+
             <div class="footer">
                 <p>
                     EFECTIVO ACREDITADO EN CUENTA: 0545910-9 DEL BANCO DE SAN
@@ -164,96 +214,4 @@
             </div>
         </div>
     </body>
-    <style>
-        @page {
-            size: A4;
-            margin: 0;
-        }
-        body {
-            font-family: "Courier New", Courier, monospace;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            font-size: 7pt; /* Reducido para ajustarse al tamaño más pequeño */
-        }
-        .payslip {
-            background-color: #faf8f1;
-            border: 1px solid #000;
-            width: 210mm; /* Ancho de una hoja A4 */
-            height: auto; /* Altura de media hoja A4 */
-            margin: 0 auto;
-            padding: 5mm;
-            box-sizing: border-box;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 1px solid #000;
-            padding-bottom: 2mm;
-            margin-bottom: 3mm;
-        }
-        .main-content {
-            display: flex;
-            justify-content: space-between;
-            /* height: calc(100% - 30mm);  Ajuste para el encabezado y pie de página */
-        }
-        .column {
-            width: 32%;
-            border: 1px solid #000;
-            padding: 1mm;
-            border-radius: 5px;
-            height: 300px;
-            font-size: 6pt; /* Aún más pequeño para las columnas */
-        }
-        h3 {
-            text-align: center;
-            margin-top: 0;
-            font-size: 8pt;
-            background-color: #e6e6e6;
-            border-radius: 5px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        td {
-            padding: 0.5mm 0;
-        }
-        td:first-child {
-            text-align: left;
-        }
-        td:last-child {
-            text-align: right;
-        }
-        .total {
-            border-top: 1px solid #000;
-            font-weight: bold;
-            text-align: right;
-            margin-top: 1mm;
-            padding-top: 1mm;
-        }
-        .gobierno {
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 2mm;
-        }
-        .employee-info,
-        .additional-info {
-            border: 1px solid #000;
-            padding: 1mm;
-            margin-bottom: 2mm;
-        }
-        .neto {
-            text-align: right;
-            font-weight: bold;
-            border-top: 1px solid #000;
-            padding-top: 1mm;
-        }
-        .footer {
-            border-top: 1px solid #000;
-            margin-top: 2mm;
-            padding-top: 2mm;
-            font-size: 5pt;
-        }
-    </style>
 </html>
