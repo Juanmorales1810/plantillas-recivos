@@ -61,14 +61,14 @@ plantillas-recivos/
 
 ## 🌟 Créditos
 
--   **Diseño**: Basado en el modelo de Figma para los recibos de sueldo de la Provincia de San Juan.
+-   **Diseño**: Basado en el modelo de Figma para los recibos de sueldo de la Provincia de San Juan creado por Agustina Frias - DPI.
 -   **Desarrollo**: Creado con amor para facilitar la generación de recibos visualmente atractivos.
 
 ---
 
 ## 🖼️ Vista previa
 
-![Vista previa del diseño](https://via.placeholder.com/800x400?text=Imagen+de+ejemplo+de+los+recibos)
+![Vista previa del diseño](https://github.com/Juanmorales1810/plantillas-recivos/blob/main/assets/ejemplo.jpg?raw=true)
 
 ---
 
